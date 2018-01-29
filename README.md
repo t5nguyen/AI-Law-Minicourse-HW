@@ -7,6 +7,11 @@
 ### Step 3
 > In this third step, the opinions are processed to remove stopwords and to lemmatize. Packages of common English stop words are imported using the sklearn.feature_extraction module and then additional stopwords are created by assigning categories of words, including names (male and female), case names, and state names. To lemmatize words, we define separators ("\r", "\n", and more). This is also applied to the stopwords list created. The resulting case list/information is then "pickled", or saved, for later use. 
 ### Step 4
-> In this next step, we go through different methods for topic modeling the Supreme Court cases extracted in the previous steps. 
+> In this next step, we go through different methods for topic modeling the Supreme Court cases extracted in the previous steps to find the best model to use: 
+>> 1. Latent Dirchlet Allocation Model;
+>> 2. Latent Semantic Analysis; and
+>> 3. NMF Model. 
 ### Step 5
-> 
+> In this final step, we apply the third model, NMF Model, to the data frame.
+## Tensor Flow 
+> I was able to launch an empty (Python) kernel in my repository, but had difficulty importing Tensorflow.
